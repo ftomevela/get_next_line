@@ -6,7 +6,7 @@
 /*   By: ftome-ve <ftome-ve@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 20:03:58 by ftome-ve          #+#    #+#             */
-/*   Updated: 2024/05/11 19:26:49 by ftome-ve         ###   ########.fr       */
+/*   Updated: 2024/05/22 16:48:53 by ftome-ve         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,7 @@ char	*ft_nextline(char *line)
 char	*get_next_line(int fd)
 {
 	char		*line;
-	static char	*final[OPEN_MAX];
+	static char	*final[OPEN_MAX]];
 
 	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, 0, 0) < 0)
 	{
